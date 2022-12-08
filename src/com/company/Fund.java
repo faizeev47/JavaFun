@@ -93,7 +93,7 @@ public class Fund {
 
     @Override
     public String toString() {
-        String fundsString = "You have:\n" + this.tooniesFund +  " Toonies\n" + this.looniesFund +  " Loonies\n" + this.fiveBillFund +  " Five Bills\n" + this.tenBillFund + " Ten Bills\n" + this.twentyBillFund +  " Twenty Bills";
+        String fundsString = "(" + this.tooniesFund + "x $1)" + "+" + "(" + this.looniesFund + "x $2)" + "+" + "(" + this.fiveBillFund + "x $5)" + "+" + "(" + this.tenBillFund + "x $10)" + "+" + "(" + this.twentyBillFund + "x $20)";
         return fundsString;
     }
 
